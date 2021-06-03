@@ -39,8 +39,8 @@ The following are the features present in the dataset:
 
 # these grades are related with the course subject, Math or Portuguese:
 31 G1 - first period grade (numeric: from 0 to 20)
-31 G2 - second period grade (numeric: from 0 to 20)
-32 G3 - final grade (numeric: from 0 to 20, output target)
+32 G2 - second period grade (numeric: from 0 to 20)
+33 G3 - final grade (numeric: from 0 to 20, output target)
 
 Only the features such as 'marks from G1 exam','marks from G2 exam','health','absences','internet','romantic','failures' and 'study time' are used to make the dataframe.
 The marks obtained by the student in the final G3 exam is given as the 'label' and the model is trained and tested.
